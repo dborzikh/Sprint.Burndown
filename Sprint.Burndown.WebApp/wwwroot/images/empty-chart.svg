@@ -1,0 +1,14 @@
+﻿<svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="232" height="133" viewBox="0 0 232 133">
+  <rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="232" height="133" rx="0" ry="0"></rect>
+  <rect fill="none" class="highcharts-plot-background" x="10" y="10" width="212" height="108"></rect>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 10 118.5 L 222 118.5" opacity="1"></path>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 10 91.5 L 222 91.5" opacity="1"></path>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 10 64.5 L 222 64.5" opacity="1"></path>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 10 37.5 L 222 37.5" opacity="1"></path>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 10 9.5 L 222 9.5" opacity="1"></path>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="10" y="10" width="212" height="108"></rect>
+  <g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 10 10 L 10 118"></path></g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels "></g>
+</svg>

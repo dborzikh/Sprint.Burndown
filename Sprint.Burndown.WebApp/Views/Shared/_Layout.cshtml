@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sprint Burndown Chart</title>
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/dist/site.min.css" asp-append-version="true" />
+    <link rel="shortcut icon" type="image/png" href="/images/chart-bar-down-blue.png" />
+    
+    <environment names="Development,Staging,Production">
+        <link rel="stylesheet" href="~/dist/semantic.min.css" />
+        <link rel="stylesheet" href="~/dist/webix.css" type="text/css">
+        <link rel="stylesheet" href="~/dist/highcharts.css" />
+        <link rel="stylesheet" href="~/dist/frappe-gantt.css" />
+    </environment>
+</head>
+
+<body>
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    <environment names="Development,Staging,Production">
+        <script src="~/dist/jquery.min.js"></script>
+        <script src="~/dist/moment.js"></script>
+        <script src="~/dist/lodash.min.js"></script>
+        <script src="~/dist/signalr.min.js"></script>
+        <script src="~/dist/semantic.min.js"></script>
+        <script src="~/dist/webix.js"></script>
+        <script src="~/dist/highcharts.js"></script>
+        <script src="~/dist/signalr.min.js"></script>
+        <script src="~/dist/frappe-gantt.js"></script>
+    </environment>
+
+    @RenderBody()
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
